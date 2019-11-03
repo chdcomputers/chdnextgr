@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include chdnextgr *.css
+recursive-include chdnextgr *.csv
+recursive-include chdnextgr *.html
+recursive-include chdnextgr *.ico
+recursive-include chdnextgr *.js
+recursive-include chdnextgr *.json
+recursive-include chdnextgr *.md
+recursive-include chdnextgr *.png
+recursive-include chdnextgr *.py
+recursive-include chdnextgr *.svg
+recursive-include chdnextgr *.txt
+recursive-exclude chdnextgr *.pyc
